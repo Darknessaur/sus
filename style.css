@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 150px;
+}
+
+button{
+    height: 30px;
+    width: 50px;
+    background: white;
+    border-radius: 5px;
+    color: darkblue;
+    font-weight: 600;
+}
